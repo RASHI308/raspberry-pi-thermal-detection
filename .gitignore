@@ -1,0 +1,11 @@
+# Ignore dataset and model files
+data/
+models/
+media/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
