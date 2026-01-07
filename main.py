@@ -66,9 +66,9 @@ while True:
     threshold = 0.6 if np.mean(temp_data) > 30 else 0.5  
 
     if prediction > threshold:
-        print(f"✅ Human Detected | Confidence: {prediction:.2f}")
+        print(f" Human Detected | Confidence: {prediction:.2f}")
     else:
-        print(f"❌ No Human Detected | Confidence: {prediction:.2f}")
+        print(f" No Human Detected | Confidence: {prediction:.2f}")
 
     # Show thermal image
     cv2.imshow("Thermal Feed", thermal_image)
